@@ -11,7 +11,7 @@ body{
     /* font-family: ; */
 }
 .carousel-item{
-        height: 80vh;
+        height: 100%;
         background: no-repeat center center scroll;
         background-size: cover;
 }
