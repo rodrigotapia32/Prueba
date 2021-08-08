@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+
+body{
+    /* font-family: ; */
+}
+.carousel-item{
+        height: 80vh;
+        background: no-repeat center center scroll;
+        background-size: cover;
+}
+
+nav div img{
+    width: 24px;
+}
+.hdivider{
+        border-top: 3px solid;
+        height: 1px;
+}
+
+.card-text, .card-title{
+    font-size: 14px;
+    text-align: left;
+}
+
+
+
