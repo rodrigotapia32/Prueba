@@ -10,24 +10,38 @@
 body{
     /* font-family: ; */
 }
-.carousel-item{
-        height: 100%;
-        background: no-repeat center center scroll;
-        background-size: cover;
+.carousel-item {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav div img{
     width: 24px;
 }
 .hdivider{
-        border-top: 3px solid;
-        height: 1px;
+        border-top: 2px solid;
 }
 
 .card-text, .card-title{
     font-size: 14px;
     text-align: left;
 }
+
+.bgdark{
+    background-color: black;
+}
+
+.imgsz img{
+    height: 150px;
+}
+
+/* .imgc{
+    height: 500px;
+} */
+
+/* .navbar-dark{
+opacity: none;
+} */
 
 
 
