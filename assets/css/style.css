@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -6,42 +6,33 @@
     text-align: center;
 }
 
-
-body{
-    /* font-family: ; */
+h5 {
+    font-family: 'Rubik', sans-serif;
 }
+
 .carousel-item {
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-nav div img{
+nav div img {
     width: 24px;
 }
-.hdivider{
-        border-top: 2px solid;
+
+.hdivider {
+    border-top: 2px solid;
 }
 
-.card-text, .card-title{
+.card-text,
+.card-title {
     font-size: 14px;
     text-align: left;
 }
 
-.bgdark{
+.bgdark {
     background-color: black;
 }
 
-.imgsz img{
+.imgsz img {
     height: 150px;
 }
-
-/* .imgc{
-    height: 500px;
-} */
-
-/* .navbar-dark{
-opacity: none;
-} */
-
-
-

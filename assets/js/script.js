@@ -1,14 +1,28 @@
-$(function(){ 
-    $("a").click(function(event){//seleccionar etiqueta, accion y funcion $(selector).accion()
-        if (this.hash !==""){
+$(function() { // smooth scrolling
+    $("a").click(function(event) { //seleccionar etiqueta, accion y funcion $(selector).accion()
+        if (this.hash !== "") {
             event.preventDefault(); //no haga lo que esta predeterminado
 
-            var gato = this.hash;
+            var hash = this.hash;
             $("html, body").animate({
-                scrollTop: $(gato).offset().top
-            },800, function(){
-                window.location.hash = gato;
+                scrollTop: $(hash).offset().top
+            }, 800, function() {
+                window.location.hash = hash;
             });
         }
     });
+
+    $(function() { // tooltip para el footer 
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $("h3").click(function(event) { // alert para texto footer
+        alert("Pagina creada por Rodrigo Tapia")
+    });
+
+
+
+
+
+
 });
