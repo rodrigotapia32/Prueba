@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -21,10 +21,10 @@
 </head>
 
 <body>
-    <!--nav navbar-->
-    <nav class="container-fluid p-2 navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="font-weight-bold navbar-brand text-white d-inline-flex" href="#inicio"><img src="assets/img/viajes.svg" alt="vc">Viajes Chile</a>
+    <!--header navbar + carrousel-->
+    <header id="inicio">
+        <nav class="container navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand text-white" href="#inicio"><img class="icono" src="assets/img/viajes.svg" alt="vc">Viajes Chile</a>
             <button class="navbar-toggler cowte" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,10 +44,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <!--carrousel-->
-    <header id="inicio" class="container-fluid p-0">
+        </nav>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -72,16 +69,16 @@
         </div>
     </header>
     <!--div que contiene el fondo negro-->
-    <section class="container-fluid p-0 pb-4 bgdark">
+    <section id="quienessomos" class="container-fluid p-0 pb-4 bgdark">
         <!--primer contenedor del fondo negro ¿Quiénes somos?-->
-        <div id="quienessomos" class="container d-none d-xl-block">
+        <div class="container d-none d-sm-block d-sm-none d-md-block">
             <div class="row justify-content-center pt-4 pb-3">
                 <h5>¿Quiénes somos?</h5>
             </div>
             <div class="hdivider text-info pb-4">
             </div>
             <div class="row">
-                <div class="col-sm">
+                <div class="col">
                     <div class="card text-white bg-transparent mb-3">
                         <div class="card-header bg-info rounded-0 p-0"><i class="fas fa-plane"></i></div>
                         <div class="card-body p-0">
@@ -91,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col">
                     <div class="card text-white bg-transparent">
                         <div class="card-body p-0">
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores nulla aspernatur iure voluptates dignissimos, aliquid commodi aut numquam ducimus ea et id optio delectus ullam nesciunt fugit autem reprehenderit?Lorem
@@ -101,7 +98,7 @@
                         <div class="card-header bg-info rounded-0 p-0"><i class="fas fa-mountain"></i></div>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col">
                     <div class="card text-white bg-transparent mb-3">
                         <div class="card-header bg-info     rounded-0 p-0"><i class="fas fa-route"></i></div>
                         <div class="card-body p-0">
@@ -114,7 +111,7 @@
             </div>
         </div>
         <!--segundo contenedor del fondo negro Destacados-->
-        <div id="destacados" class="container pb-5">
+        <div id="destacados" class="container">
             <div class="row justify-content-center pt-4 pb-3">
                 <h5>Destacados</h5>
             </div>
@@ -124,7 +121,7 @@
                 <div class="col-sm">
                     <div class="card text-white bg-info mb-3">
                         <img class="card-img-top" src="assets/img/card1.jpg" alt="Card image">
-                        <div class="card-body sz">
+                        <div class="card-body">
                             <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa magni at earum reprehenderit officia inventore nisi unde. Temporibus, odit et. Nisi labore voluptatum
                             </p>
@@ -134,7 +131,7 @@
                 <div class="col-sm">
                     <div class="card text-white bg-info mb-3">
                         <img class="card-img-top" src="assets/img/card2.jpg" alt="Card image">
-                        <div class="card-body sz">
+                        <div class="card-body">
                             <h4 class="card-title">Consectetur adipisicing elit</h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa magni at earum reprehenderit officia inventore nisi unde. Temporibus, odit et. Nisi labore voluptatum
                             </p>
@@ -144,7 +141,7 @@
                 <div class="col-sm">
                     <div class="card text-white bg-info mb-3">
                         <img class="card-img-top" src="assets/img/card3.jpg" alt="Card image">
-                        <div class="card-body sz">
+                        <div class="card-body">
                             <h4 class="card-title">Sed do eiusmod tempor incididunt ut labore</h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa magni at earum reprehenderit officia inventore nisi unde. Temporibus, odit et. Nisi labore voluptatum
                             </p>
@@ -154,7 +151,7 @@
                 <div class="col-sm">
                     <div class="card text-white bg-info mb-3">
                         <img class="card-img-top" src="assets/img/card4.jpg" alt="Card image">
-                        <div class="card-body sz">
+                        <div class="card-body">
                             <h4 class="card-title">Ut enim ad minim veniam</h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa magni at earum reprehenderit officia inventore nisi unde. Temporibus, odit et. Nisi labore voluptatum
                             </p>
@@ -165,7 +162,7 @@
         </div>
         <!--tercer contenedor del fondo negro Contacto-->
         <div id="contacto" class="container">
-            <h5 class="pb-3 pt-5">Contacto</h5>
+            <h5 class="pb-3 pt-3">Contacto</h5>
             <div class="hdivider text-info pb-4"></div>
             <div>
                 <div class="typeform-widget" data-url="https://form.typeform.com/to/bViGkw2O?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
@@ -190,18 +187,20 @@
         </div>
     </section>
     <!--footer-->
-    <footer class="container-fluid p-0 bg-info ">
-        <div class="row py-2">
-            <div class="col">
-                <a href="">
-                    <h3>VIAJES CHILE</h3>
-                </a>
-            </div>
-            <div class="col align-self-center">
-                <a href="https://github.com" target="_blank" data-toggle="tooltip" data-placement="left" title="Github"><i class="fab fa-github-square fa-2x"></i></a>
-                <a href="https://linkedin.com" target="_blank" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://twitter.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a>
-                <a href="https://facebook.com" target="_blank" data-toggle="tooltip" data-placement="right" title="Facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+    <footer class="container-fluid bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a>
+                        <h3 class="text-sm-left user-select-none">VIAJES CHILE</h3>
+                    </a>
+                </div>
+                <div class="col align-self-center text-right p-0">
+                    <a href="https://github.com" target="_blank" data-toggle="tooltip" data-placement="left" title="Github"><i class="fab fa-github-square fa-2x"></i></a>
+                    <a href="https://linkedin.com" target="_blank" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://twitter.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a href="https://facebook.com" target="_blank" data-toggle="tooltip" data-placement="right" title="Facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+                </div>
             </div>
         </div>
     </footer>

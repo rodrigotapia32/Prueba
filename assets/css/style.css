@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    border: 0;
     box-sizing: border-box;
     color: white;
     text-align: center;
@@ -11,8 +12,13 @@ h5 {
 }
 
 .carousel-item {
+    width: 50rem;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.icono {
+    width: 30px;
 }
 
 nav div img {
@@ -35,4 +41,8 @@ nav div img {
 
 .imgsz img {
     height: 150px;
+}
+
+footer {
+    margin: 0;
 }
