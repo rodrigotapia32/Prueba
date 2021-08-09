@@ -20,9 +20,4 @@ $(function() { // smooth scrolling
         alert("Pagina creada por Rodrigo Tapia")
     });
 
-    $("h3").click(function(event) { // alert para texto footer VIAJES CHILE
-        alert("Pagina creada por Rodrigo Tapia")
-    });
-
-
 });
